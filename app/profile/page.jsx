@@ -46,7 +46,7 @@ const ProfileSection = (userData) => {
                         </label>
                         <input
                             type="email"
-                            value={newEmail}
+                            value={"a"}
                             placeholder= {userData?.meta_data?.email_address}
                             onChange={handleEmailChange}
                             className="border-none border-gray-300 rounded-lg"
