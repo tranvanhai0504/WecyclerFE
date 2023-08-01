@@ -1,35 +1,11 @@
-import { useAppSelector } from "@/context/store";
-import { selectWallet } from "@/features/walletSlice";
-import { Wallet } from "@near-wallet-selector/core";
-
-import Search from "@/components/Search";
-
-import ImageCard from "../../components/ImageCard"
-import UserCard from "../../components/UserCard"
-
 
 import clsx from 'clsx'
 import { Play, Amatic_SC } from "@next/font/google"
-import Button from "../../components/Button"
 import Image from "next/image"
-
-import AllMark from "/public/images/AllMark.png"
-import ActiveMark from "/public/images/ActiveMark.png"
-import  ProgressMark from "/public/images/ProgressMark.png"
-import CancelMark from "/public/images/CancelMark.png"
-
-import bg from "/public/images/img65.png"
 import avatar from "/public/images/Avatar.png"
-
-import {BiRocket,BiPlus} from "react-icons/bi";
 
 
 const play = Play({
-  subsets: ['latin'],
-  weight: ['400', '700']
-})
-
-const amatic_SC = Amatic_SC({
   subsets: ['latin'],
   weight: ['400', '700']
 })
