@@ -33,7 +33,7 @@ const ProfileSection = (userData) => {
                     
                     <div className='flex flex-col font-light text-black tracking-wide w-2/3'>
                         <p className="text-4xl">
-                            Name: {userData?.meta_data.name}
+                            Name: {userData?.meta_data?.name}
                         </p>
                         <p>
                             Acount id: {userData?.id}
@@ -56,7 +56,7 @@ const ProfileSection = (userData) => {
                             Role: {userData?.role}
                         </p>
                         <p>
-                            Token amount: {userData?.meta_data.balance}
+                            Token amount: {userData?.meta_data?.balance}
                         </p>
                     </div>
             </div>
