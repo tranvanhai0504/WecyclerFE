@@ -13,7 +13,7 @@ const play = Play({
 const ProfileSection = (userData) => {
 
   return (
-    <div className="flex flex-row justify-between text-black max-w-[1440px] mx-auto lg:w-10/12 mt-40 p-10 border border-2 border-grey rounded-xl">
+    <div className="flex flex-row justify-between text-black max-w-[1440px] mx-auto lg:w-10/12 mt-40 p-10 border-2 border-grey rounded-xl">
       <div className="popup-content flex-col min-w-[1000px] min-h-[600px] flex ">
             <div className="flex flex-row justify-between pb-8">
                 <p className="text-black text-4xl font-normal">
@@ -47,7 +47,7 @@ const ProfileSection = (userData) => {
                         <input
                             type="email"
                             value={newEmail}
-                            placeholder= {userData?.meta_data.email_address}
+                            placeholder= {userData?.meta_data?.email_address}
                             onChange={handleEmailChange}
                             className="border-none border-gray-300 rounded-lg"
                             />
